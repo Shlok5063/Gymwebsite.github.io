@@ -1,0 +1,59 @@
+/* css reset */
+body {margin: 0; padding: 0; background: url(bg.png.jpg) ; height: 60rem;
+            
+         ;}
+.navbar{ display: block ; position: sticky}
+.left {; width: 10%; display: inline-block; position: absolute; left: 3.4vh ; top: 0.3vh;}
+.left h2 { display: inline;color: orangered;
+          font-style: obliques;
+         font-family: Georgia, 'Times New Roman', Times, serif;}
+.mid { display: block; width: 45% ; margin: 2vh auto ;  }
+.navbar li {display: inline-block ; font-size: 25px;}
+.navbar li a {color: aliceblue; text-decoration: none; padding : 34px 25px ; }
+.navbar li a:hover { background-color: orangered; text-decoration: none; padding: 34px 25px  ;}
+.container { border: solid 2px white;
+              margin: 106px 80px; padding: 75px; width: 33%; border: 28px;}
+              .container h1 {color:  white; text-align: center;}
+              .container button { display: block; width: 23%; margin: auto; background-color: yellow ; border-radius: 8px;}
+
+              .form-group input {text-align: center; display: block; width: 508px; padding: 1px; border: 2px solid black;
+                 margin :11px auto ; border-radius: 8px }
+ .content { color: whitesmoke; ; max-width: 100%; height: 20rem; 
+            text-align: center
+             ;
+            margin-top: 25vh;
+            font-weight: bolder
+         ;}
+ .content h1 { font-size: xx-large;
+                font-style: italic;
+               font-family: 'Courier New', Courier, monospace;
+            }
+            .content h2{ font-size: x-large;
+                        font-style: inherit;
+                     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                  color: orangered;
+            
+               }
+.content a {   ;
+                background-color: orangered;
+               border-radius: 4px ;
+            font-style: oblique;
+              font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+.container {
+             
+      width: 100%;
+          margin-bottom: 0vh;
+         ;
+      }
+            .item1 img { width: 10vw;}
+
+
+
+footer {
+   background-color: aliceblue;
+   font-style: italic;
+   font-family: 'Courier New', Courier, monospace;
+   text-align: center;
+   bottom: 0px;
+}
